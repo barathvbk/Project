@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.banner__Image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details__container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: mintcream;
+    z-index: 10;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* dark transparent layer */
+    z-index: 1;
+  }
+.button__container {
+    display: flex;
+    gap: 20px;
+}
+.subtitle {
+    margin-bottom: 20px;
+}

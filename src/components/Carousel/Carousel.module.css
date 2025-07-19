@@ -1,0 +1,50 @@
+.swiper__container{
+    width: 100%;
+    padding: 20px 60px !important;
+}
+.swiper__slide {
+    height: fit-content;
+}
+.swiper__container :global(.swiper-wrapper) {
+    padding-bottom: 20px !important;
+}
+.container {
+    position: relative;
+    width: 100%;
+    margin:0 auto;  
+    background-color: white;
+}
+.navigation_Container {
+    display: flex;
+    justify-content:flex-end;
+    margin-bottom: 8px;
+    gap: 10px;
+    height: fit-content;
+}
+.prev_button,
+.next_button {
+    cursor: pointer;
+    padding:8px 16px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.top_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.title_container {
+    text-transform: uppercase;
+}
+.swiper_custom_pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    position: absolute;
+    z-index: 20;
+}
+.container :global(.swiper-pagination-bullet-active) {
+    background: #003971;
+}

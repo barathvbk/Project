@@ -1,0 +1,13 @@
+.logo_container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.logo_text {
+    font-size: 35px;
+    color:#003971;
+    font-weight: 900;
+}
+.logoImg{
+    object-fit: cover;
+}
