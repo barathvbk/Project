@@ -4,9 +4,9 @@ import Image from 'next/image';
 
 const Logo = () => {
   return (
-    <div className={styles.logo_container}>
+    <a className={styles.logo_container} href='/'>
         <Image src="/logo2.svg" alt="Logo Image" className={styles.logoImg} width={40} height={40}/> <span className={styles.logo_text}>VBK</span>
-    </div>
+    </a>
   )
 }
 

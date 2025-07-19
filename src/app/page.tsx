@@ -10,7 +10,7 @@ import TextSection from '@/components/TextSection/TextSection';
 
 const page = () => {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} page_container`}>
     <HeroBanner/>
     <Carousel/>
     <TextSection subtitle={'#Grow U/S'} description={'The Ultimate Place to manage and  grow your business with minimal cost.The Ultimate Place to manage and  grow your business with minimal cost'} primaryText={'Read More'} secondaryText={'Read More'}/>

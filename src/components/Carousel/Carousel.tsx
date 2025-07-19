@@ -29,7 +29,7 @@ const Carousel: React.FC = () => {
         modules={[Navigation, Pagination, A11y]}
         className={styles.swiper__container}
         spaceBetween={24}
-        slidesPerView={5}
+        slidesPerView={4}
         navigation={{
           nextEl:'.next_button',
           prevEl:'.prev_button',

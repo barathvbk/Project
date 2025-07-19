@@ -1,0 +1,43 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.inner_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.layoutBlock {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.tallBlock {
+    height: 960px;
+}
+.shortBlock {
+    height: 480px;
+}
+.grid2x2 {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+.grid4x1 {
+    display: grid;
+    gap: 20px;
+  grid-template-columns: repeat(4,1fr);
+}
+.tallTile {
+  flex: 1;
+  height: 100%;
+}
+
+.tallTile > * {
+  height: 100%;
+}

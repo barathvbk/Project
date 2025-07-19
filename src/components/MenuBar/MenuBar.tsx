@@ -4,7 +4,7 @@ const MenuBar = () => {
   return (
     <div className={styles.container}>
         <a>Essentials</a>
-        <a>Products</a>
+        <a href='/plp'>Products</a>
         <a>Sales</a>
         <a>Demands</a>
         <a>Stores</a>

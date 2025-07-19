@@ -1,0 +1,30 @@
+.accordion {
+  padding: 12px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+}
+
+.content {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #dbeafe;
+  font-size: 14px;
+}
+
+.accordion input[type='checkbox'] {
+  accent-color: #1e3a8a; /* dark blue */
+}

@@ -17,7 +17,7 @@ const ProductTile: React.FC<ProductProps> = ({
   description,
 }) => {
   return (
-    <div className={styles.product_tile}>
+    <a className={styles.product_tile} href='/pdp'>
       <img src={image} alt={title} className={styles.product_image} />
       <div className={styles.product_content}>
         <h2 className={styles.product_title}>{title}</h2>
@@ -25,7 +25,7 @@ const ProductTile: React.FC<ProductProps> = ({
         <p className={styles.product_qty}>Qty: {quantity}</p>
         <p className={styles.product_desc}>{description}</p>
       </div>
-    </div>
+    </a>
   );
 };
 

@@ -20,6 +20,7 @@ import {
   FaLinkedinIn,
   FaYoutube,
   FaPinterestP,
+  FaFilter,
 } from 'react-icons/fa';
 
 type IconName =
@@ -39,7 +40,8 @@ type IconName =
   | 'twitter'
   | 'linkedin'
   | 'youtube'
-  | 'pinterest';;
+  | 'pinterest'
+  | 'filter';
 
 interface IconProps {
   name: IconName;
@@ -65,6 +67,7 @@ const iconMap: Record<IconName, React.ElementType> = {
   linkedin: FaLinkedinIn,
   youtube: FaYoutube,
   pinterest: FaPinterestP,
+  filter: FaFilter,
 };
 
 const Icon: React.FC<IconProps> = ({ name, size = 24, color = '#333' }) => {
