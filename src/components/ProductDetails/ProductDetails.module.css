@@ -1,0 +1,22 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.details h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.details p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #222;
+  margin-top: 0.5rem;
+}

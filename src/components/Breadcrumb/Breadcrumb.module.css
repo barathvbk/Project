@@ -1,0 +1,22 @@
+.breadcrumb {
+  font-size: 14px;
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px 60px 0 60px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
