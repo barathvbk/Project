@@ -3,18 +3,27 @@
   align-items: center;
   gap: 0.5rem;
   margin: 1rem 0;
+  border: 1px solid #003971;
+  width: fit-content;
 }
 
 .adjuster button {
   width: 32px;
   height: 32px;
   font-size: 1.2rem;
-  border: 1px solid #ccc;
   border-radius: 6px;
   cursor: pointer;
+  color: #003971;
+  background-color: white;
+  border: none;
 }
 
 .adjuster span {
   min-width: 24px;
   text-align: center;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
 }

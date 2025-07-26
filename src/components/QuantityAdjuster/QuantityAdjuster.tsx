@@ -10,9 +10,9 @@ interface Props {
 
 const QuantityAdjuster: React.FC<Props> = ({ quantity, onIncrease, onDecrease }) => (
   <div className={styles.adjuster}>
-    <button className='primary' onClick={onDecrease} disabled={quantity <= 1}>-</button>
+    <button onClick={onDecrease} disabled={quantity <= 1}>-</button>
     <span>{quantity}</span>
-    <button className='primary' onClick={onIncrease}>+</button>
+    <button onClick={onIncrease}>+</button>
   </div>
 );
 

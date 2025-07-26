@@ -1,0 +1,9 @@
+.container {
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.container h2 {
+  color: #003971;
+  margin-bottom: 20px;
+}

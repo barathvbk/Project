@@ -9,7 +9,9 @@ interface VariantPickerProps {
 }
 
 const VariantPicker: React.FC<VariantPickerProps> = ({ variants, selected, onSelect }) => (
-  <div className={styles.picker}>
+  <div className={styles.container}>
+    <div className={styles.title}>Size:</div>
+    <div className={styles.picker}>
     {variants.map((v) => (
       <button
         key={v}
@@ -19,6 +21,7 @@ const VariantPicker: React.FC<VariantPickerProps> = ({ variants, selected, onSel
         {v}
       </button>
     ))}
+    </div>
   </div>
 );
 

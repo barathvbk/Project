@@ -1,0 +1,53 @@
+.splitSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.details {
+  flex: 1;
+  min-width: 300px;
+}
+
+.details h2 {
+  color: #003971;
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.details p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #333;
+  width: 70%;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.imageWrapper {
+  flex: 1;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .splitSection {
+    padding:20px;
+  }
+}

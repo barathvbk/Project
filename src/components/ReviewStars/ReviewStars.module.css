@@ -1,0 +1,27 @@
+.stars {
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  font-size: 20px;
+  color: #003971;
+  transition: color 0.3s;
+}
+
+.half {
+  background: linear-gradient(to right, #003971 50%, #ccc 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.empty {
+  color: #ccc;
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: underline;
+}

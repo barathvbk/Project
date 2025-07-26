@@ -1,0 +1,38 @@
+.SpecsContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 60px;
+
+    & h3 {
+        margin-bottom: 20px;
+    }
+}
+.SpecContainer {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+}
+
+.titleContainer {
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.valueContainer {
+    width: 50%;
+    height: 40px;  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+@media (max-width: 768px) {
+  .SpecsContainer {
+    padding:20px;
+  }
+}
