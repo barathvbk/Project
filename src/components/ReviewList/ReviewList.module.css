@@ -23,9 +23,14 @@
   color: #003971;
 }
 
-.media {
+.mediaContainer {
   display: flex;
   gap: 10px;
   margin-top: 10px;
   flex-wrap: wrap;
+}
+
+.media {
+  height: 200px;
+  object-fit: cover;
 }

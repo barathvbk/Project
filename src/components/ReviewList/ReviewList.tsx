@@ -22,12 +22,12 @@ const ReviewList = ({ reviews }: Props) => {
             {'☆'.repeat(5 - review.rating)}
           </div>
           <p>{review.text}</p>
-          <div className={styles.media}>
+          <div className={styles.mediaContainer}>
             {review.media.map((m, i) =>
-              m.includes('video') ? (
-                <video key={i} src={m} controls width="150" />
+              m.type.includes('video') ? (
+                <video className={styles.media} key={i} src={m.src} controls width="150" />
               ) : (
-                <img key={i} src={m} alt={`review-media-${i}`} width="150" />
+                <img className={styles.media} key={i} src={m.src} alt={`review-media-${i}`} width="150" />
               )
             )}
           </div>

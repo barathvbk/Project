@@ -2,13 +2,16 @@ import React, { useState } from 'react';
 import styles from './ProductReview.module.css';
 import ReviewList from '../ReviewList/ReviewList';
 import ReviewForm from '../ReviewForm/ReviewForm';
-
+interface MediaItem {
+  src: string;
+  type: 'image' | 'video';
+}
 export type Review = {
   id: number;
   user: string;
   text: string;
   rating: number;
-  media: string[]; // image/video URLs
+  media: MediaItem[]; // image/video URLs
   date: string;
 };
 

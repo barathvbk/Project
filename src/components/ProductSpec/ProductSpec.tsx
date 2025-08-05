@@ -15,8 +15,8 @@ const ProductSpec = ({
   return (
     <section className={styles.SpecsContainer}>
         <h3>SPECIFICATION</h3>
-        {items.map((item)=>(
-        <div className={styles.SpecContainer}>
+        {items.map((item, index)=>(
+        <div key={index} className={styles.SpecContainer}>
             <div className={styles.titleContainer}>
                 {item.title}
             </div>
